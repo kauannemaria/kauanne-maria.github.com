@@ -1,0 +1,90 @@
+html,body {
+    margin: 0;
+}
+header {
+    background-color: black;
+    color:black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu {
+    float: right; 
+    margin-right: 5%;
+    list-style: none;
+     margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color:white;
+}
+#imagem_fundo {
+    background:url(download\ 1.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#Titulo {
+    color: black;
+    padding-top: 10%;
+    font-size: 70px;
+}
+#Subtitulo {
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#acao {
+    color: black;
+    border: 1px black solid;
+    padding: 10px 20px 10px 20px;
+}
+.incone {
+    width: 51px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+#projeto {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+#selecao {
+    padding: 20px;
+}
+#Imformação {
+    background-color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+}
+.coluna {
+    float: left;
+    padding:0 5%;
+    position: relative;
+    width: 40%;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+
+
